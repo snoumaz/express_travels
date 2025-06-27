@@ -9,6 +9,15 @@
     "img": "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
+    "ruta": "/andorra",
+    "lugar": "Andorra",
+    "nombre": "Un pais entre montañas",
+    "descripcion": "5 días de viaje, turístico de termas ",
+    "precio": 800,
+    "img": "https://images.unsplash.com/photo-1634141428610-1781a3862a9b?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": "66d3645b-cea1-4a6d-8129-7f1c7fc8b653"
+  },
+  {
     "id": 3,
     "ruta": "/egipto",
     "lugar": "Egipto",
@@ -47,11 +56,11 @@
   {
     "ruta": "/paris",
     "lugar": "Paris",
-    "nombre": "Paris Oh la la",
-    "descripcion": "Todo carísimo",
-    "precio": 1500,
-    "img": "https://plus.unsplash.com/premium_photo-1661919210043-fd847a58522d?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "id": "6be2c353-3d20-4d90-9a37-1821930a8a20"
+    "nombre": "Ciudad de las luces",
+    "descripcion": "7 dias de viaje, a la ciudad del Amor!!!",
+    "precio": 10000,
+    "img": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "id": "edd89245-0ef1-469b-b97e-648c5e62186e"
   },
   {
     "id": 5,
@@ -61,14 +70,5 @@
     "descripcion": "5 días de viaje, con hotel en el Gran Canal y vuelos incluidos",
     "precio": 1467.78,
     "img": "https://images.unsplash.com/photo-1558271736-cd043ef2e855?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-  },
-  {
-    "id": "6",
-    "ruta": "/vietnam",
-    "lugar": "Vietnam",
-    "nombre": "La magia de Vietnam",
-    "descripcion": "16 días de viaje, con hoteles de lujo y vuelos incluidos",
-    "precio": 1000,
-    "img": "https://images.unsplash.com/photo-1557750255-c76072a7aad1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]

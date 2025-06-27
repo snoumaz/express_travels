@@ -9,6 +9,7 @@
 // ==========================================
 const fs = require("node:fs");        // Sistema de archivos para leer/escribir archivos
 const path = require("node:path");    // Utilidades para manejar rutas de archivos
+const crypto = require('node:crypto')     // Para generar IDs únicos aleatorios
 
 // ==========================================
 // FUNCIÓN DELETE - Eliminar elemento por ID
@@ -61,7 +62,7 @@ function insertItem(jsonData, newTravel){
     newTravel.precio = parseFloat(newTravel.precio)
 
     // GENERACIÓN DE ID ÚNICO: Crear identificador único usando crypto
-    const crypto = require('node:crypto')
+    // Usar crypto para generar un UUID aleatorio
     newTravel.id = crypto.randomUUID()
 
     // INSERCIÓN: Agregar el nuevo viaje al final del array

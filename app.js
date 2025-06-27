@@ -1,9 +1,7 @@
 // ==========================================
 // DEPENDENCIAS DEL PROYECTO
 // ==========================================
-const fs = require("node:fs");                    // Sistema de archivos para leer/escribir archivos
 const path = require("node:path");                // Utilidades para trabajar con rutas de archivos
-const crypto = require('node:crypto')             // Para generar IDs únicos aleatorios
 const express = require("express");               // Framework web para Node.js (sintaxis CommonJS)
 const app = express();                            // Crear instancia de la aplicación Express
 const {deleteItem, writeTravelsJson,insertItem} = require('./utils/funciones') // Funciones utilitarias personalizadas
